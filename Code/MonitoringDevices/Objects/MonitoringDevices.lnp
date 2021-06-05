@@ -1,0 +1,22 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\exceptionhandlers.o"
+".\objects\debugger.o"
+".\objects\timerhandler.o"
+".\objects\monitoringdevicehandler.o"
+".\objects\stm32f0xx_hal.o"
+".\objects\stm32f0xx_hal_gpio.o"
+".\objects\stm32f0xx_hal_rcc.o"
+".\objects\stm32f0xx_hal_cortex.o"
+".\objects\stm32f0xx_hal_iwdg.o"
+".\objects\gpiodriver.o"
+".\objects\iwdgdriver.o"
+".\objects\uartdriver.o"
+".\objects\timdriver.o"
+".\objects\crcdriver.o"
+".\objects\startup_stm32f072xb.o"
+".\objects\system_stm32f0xx.o"
+--strict --scatter ".\Objects\MonitoringDevices.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\MonitoringDevices.map" -o .\Objects\MonitoringDevices.axf

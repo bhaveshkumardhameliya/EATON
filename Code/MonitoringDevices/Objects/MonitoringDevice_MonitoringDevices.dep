@@ -1,0 +1,414 @@
+Dependencies for Project 'MonitoringDevice', Target 'MonitoringDevices': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Application\main.c)(0x60BB3CBC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+I (Application\debugger.h)(0x60B9B21B)
+I (Application\CommonConstDefine.h)(0x60B64755)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E5FEA)
+I (.\BSP_Common\GPIODriver.h)(0x60B7A5A4)
+I (Application\TimerHandler.h)(0x60B76F67)
+I (Application\MonitoringDeviceHandler.h)(0x60B9B120)
+I (.\BSP_Common\IWDGDriver.h)(0x60B9FB06)
+F (.\Application\ExceptionHandlers.c)(0x60B63AD8)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\exceptionhandlers.o --omf_browse .\objects\exceptionhandlers.crf --depend .\objects\exceptionhandlers.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\Application\debugger.c)(0x60B9B32C)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\debugger.o --omf_browse .\objects\debugger.crf --depend .\objects\debugger.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E5FEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+I (Application\debugger.h)(0x60B9B21B)
+I (Application\CommonConstDefine.h)(0x60B64755)
+I (Application\MonitoringDeviceHandler.h)(0x60B9B120)
+F (.\Application\TimerHandler.c)(0x60B79B1A)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\timerhandler.o --omf_browse .\objects\timerhandler.crf --depend .\objects\timerhandler.d)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+I (Application\TimerHandler.h)(0x60B76F67)
+I (Application\CommonConstDefine.h)(0x60B64755)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E5FEA)
+I (.\BSP_Common\GPIODriver.h)(0x60B7A5A4)
+I (Application\debugger.h)(0x60B9B21B)
+F (.\Application\MonitoringDeviceHandler.c)(0x60BB1D0A)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\monitoringdevicehandler.o --omf_browse .\objects\monitoringdevicehandler.crf --depend .\objects\monitoringdevicehandler.d)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+I (Application\TimerHandler.h)(0x60B76F67)
+I (Application\CommonConstDefine.h)(0x60B64755)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E5FEA)
+I (Application\debugger.h)(0x60B9B21B)
+I (.\BSP_Common\GPIODriver.h)(0x60B7A5A4)
+I (Application\MonitoringDeviceHandler.h)(0x60B9B120)
+F (.\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal.c)(0x597890D6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\stm32f0xx_hal.o --omf_browse .\objects\stm32f0xx_hal.crf --depend .\objects\stm32f0xx_hal.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_gpio.c)(0x597890D6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\stm32f0xx_hal_gpio.o --omf_browse .\objects\stm32f0xx_hal_gpio.crf --depend .\objects\stm32f0xx_hal_gpio.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc.c)(0x597890D6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\stm32f0xx_hal_rcc.o --omf_browse .\objects\stm32f0xx_hal_rcc.crf --depend .\objects\stm32f0xx_hal_rcc.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_cortex.c)(0x597890D6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\stm32f0xx_hal_cortex.o --omf_browse .\objects\stm32f0xx_hal_cortex.crf --depend .\objects\stm32f0xx_hal_cortex.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_iwdg.c)(0x597890D6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\stm32f0xx_hal_iwdg.o --omf_browse .\objects\stm32f0xx_hal_iwdg.crf --depend .\objects\stm32f0xx_hal_iwdg.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)()
+F (.\BSP_Common\GPIODriver.c)(0x60B7A6D4)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\gpiodriver.o --omf_browse .\objects\gpiodriver.crf --depend .\objects\gpiodriver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E5FEA)
+I (BSP_Common\GPIODriver.h)(0x60B7A5A4)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\BSP_Common\IWDGDriver.c)(0x60B9C2CB)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\iwdgdriver.o --omf_browse .\objects\iwdgdriver.crf --depend .\objects\iwdgdriver.d)
+I (BSP_Common\IWDGDriver.h)(0x60B9FB06)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\BSP_Common\UARTDriver.c)(0x60BB18FD)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\uartdriver.o --omf_browse .\objects\uartdriver.crf --depend .\objects\uartdriver.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\BSP_Common\TIMDriver.c)(0x60B79B3E)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\timdriver.o --omf_browse .\objects\timdriver.crf --depend .\objects\timdriver.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (.\BSP_Common\CRCDriver.c)(0x60BA03D5)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\crcdriver.o --omf_browse .\objects\crcdriver.crf --depend .\objects\crcdriver.d)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
+F (RTE\Device\STM32F072RBTx\startup_stm32f072xb.s)(0x5E156562)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "STM32F072xB SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f072xb.lst --xref -o .\objects\startup_stm32f072xb.o --depend .\objects\startup_stm32f072xb.d)
+F (RTE\Device\STM32F072RBTx\system_stm32f0xx.c)(0x5DF1E8A0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_HAL_Driver\Inc -I .\Application -I .\Configs -I .\BSP_Common-I.\RTE\_MonitoringDevices-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F072xB -D_RTE_-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h)(0x597890D6)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E5FEA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x597890D6)
+I (.\Configs\stm32f0xx_hal_conf.h)(0x60B61F8D)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x59FBF56E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E5FEA)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x597890D6)
+I (.\BSP_Common\CRCDriver.h)(0x60BA03D7)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x597890D6)
+I (.\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_iwdg.h)(0x60B9BEEF)
+I (.\BSP_Common\TIMDriver.h)(0x60B79648)
+I (.\BSP_Common\UARTDriver.h)(0x5E1BF9D2)
